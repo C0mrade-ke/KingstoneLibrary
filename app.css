@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+   justify-content: space-between;
+  background-color: black;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+
+
+.hero-box  {
+color:darkblue ;
+border: 3px solid darkblue;
+padding:5px;             
+background-color: lightblue; 
+display: block;     
+border-radius: 40px;
+}
+
+.welcome h2 {
+text-align:center;
+font-weight:300;
+font-size: 18px;
+color:blue ;
+}
+
+.welcome h1 {
+text-align:center;
+font-weight:900;
+font-size: 50px;
+color:blue ;
+}
+
+body {
+background-color: ;
+}
+Table { border:2px solid blue; background-color:brown; width:100%;}
+td {border:2px solid green}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+ height: 500px;            
+}
+
+
+.side-container {
+  display: flex;          
+  justify-content: center;
+  gap: 10px; 
+  padding-bottom:50px;             
+}
