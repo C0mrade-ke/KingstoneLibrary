@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=montserrat:500');
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #F0F2F5; 
-}
+} 
 
 nav {
   display: flex;
