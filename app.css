@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat:500');
+body {
+  background-color: #F0F2F5; 
+}
+
 nav {
   display: flex;
    justify-content: flex-end;
   background-color: black;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+
+
+
 ul {
   list-style: none;
   display: flex;
@@ -17,7 +35,7 @@ border: 3px solid darkblue;
 padding:5px;             
 background-color: lightblue; 
 display: block;     
-border-radius: 40px;
+border-radius: 400px;
 }
 
 .welcome h2 {
@@ -27,30 +45,64 @@ font-size: 18px;
 color:blue ;
 }
 
+.intro {
+    font-size: 25px;
+    font-family: 'montserrat', Sans-Serif;
+    font-weight: 600;
+    color: #333333;
+}
+.history h1 {
+   color: blue;
+}
+
+.history  {
+    font-family: 'montserrat', Sans-Serif;
+    font-size: 25px;
+    font-weight:600;
+    color: #2D3748;
+}
 .welcome h1 {
 text-align:center;
 font-weight:900;
 font-size: 50px;
 color:blue ;
+font-family: 'montserrat';
 }
 
-body {
-background-color: ;
-}
+
 Table { border:2px solid blue; background-color:brown; width:100%;}
 td {border:2px solid green}
 
 .container {
   display: flex;
-  justify-content: center; 
+  justify-content: space-between; 
   align-items: center;    
  height: 500px;            
 }
-
+.container p {
+    font-family: 'montserrat';
+    font-weight:600;
+    justify-content: flex-end;
+    border: 3px solid darkblue;
+}
 
 .side-container {
   display: flex;          
-  justify-content: center;
+  justify-content:space-between;
   gap: 10px; 
   padding-bottom:50px;             
+}
+
+
+.side-container p {
+    justify-content: flex-end;
+    font-family: 'montserrat';
+    border: 3px solid darkblue;
+    padding: 5px;
+    display: block;
+    font-weight:600;
+    align-self: center;
+    border-radius: 400px;
+   
+    
 }
