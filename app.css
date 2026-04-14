@@ -55,7 +55,7 @@ input, button {
 nav {
   display: flex;
    justify-content: flex-end;
-  background-color: black;
+  background-color: #0D3B66;
 }
 
 a {
@@ -74,7 +74,12 @@ ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding: 5px;
+  padding: 5px;  
+}
+
+ul li a {
+  color: #F4A261;
+  text-decoration: none;
 }
 
 
@@ -86,47 +91,53 @@ ul {
 /* Your updated hero-box */
 .hero-box {
   display: inline-block; /* Keeps it tiny */
-  border: 2px solid darkblue; /* Small border */
+  border: 2px solid #516171; /* Small border */
   border-radius: 200px;
   padding: 10px 20px;
   color: darkblue;
-  background-color: lightblue;
+  background-color: #B3D1ED;
 }
 
 .welcome h2 {
 text-align:center;
-font-weight:300;
-font-size: 18px;
-color:blue ;
+font-weight:400;
+font-size: 20px;
+color: #FAF0CA ;
 }
 
 .intro {
     font-size: 25px;
     font-family: 'montserrat', Sans-Serif;
     font-weight: 600;
-    color: #333333;
+    color: #DCE3E8;
 }
 .history h1 {
-   color: blue;
+   color: #F4A261;
 }
 
 .history  {
     font-family: 'montserrat', Sans-Serif;
     font-size: 25px;
     font-weight:600;
-    color: #2D3748;
+    color: #FAF0CA;
 }
 .welcome h1 {
 text-align:center;
 font-weight:900;
 font-size: 50px;
-color:blue ;
+color: #F4A261;
 font-family: 'montserrat';
 }
 
 
-Table { border:2px #516171; background-color:brown; width:100%;}
-td {border:2px }
+Table { border:10px #FAF0CA; background-color:#B3D1ED; width:50%; border-collapse: collapse}
+td {border:10px }
+
+
+
+td, th {
+  border: 1px solid #FAF0CA;
+}
 
 .container {
   display: flex;
@@ -138,8 +149,9 @@ td {border:2px }
     font-family: 'montserrat';
     font-weight:600;
     justify-content: flex-end;
-    border: 3px solid darkblue;
+    border: 3px solid white;
     align-self:center;
+    
 }
 
 .side-container {
@@ -158,7 +170,9 @@ td {border:2px }
     display: block;
     font-weight:600;
     align-self: center;
-    border-radius: 400px;
-   
-    
+    border-radius: 400px;  
+}
+
+.cart h1{
+    color: #F4A261;
 }
