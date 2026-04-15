@@ -39,7 +39,7 @@ body {
   margin-top: 80px;
 }
 .login-card {
-  background: white;
+  background: #00ff9d;
   width: 420px;
   padding: 20px;
   border-radius: 8px;
@@ -67,7 +67,10 @@ a:hover {
   color: lightblue;
 }
 
-
+.video{
+justify-content:center;
+align-items:center;
+}
 
 
 ul {
@@ -77,16 +80,13 @@ ul {
   padding: 5px;
 }
 
-
-/* Apply this to the parent */
 .parent-container {
   text-align: center; 
 }
 
-/* Your updated hero-box */
 .hero-box {
-  display: inline-block; /* Keeps it tiny */
-  border: 2px solid darkblue; /* Small border */
+  display: inline-block; 
+  border: 2px solid darkblue; 
   border-radius: 200px;
   padding: 10px 20px;
   color: darkblue;
