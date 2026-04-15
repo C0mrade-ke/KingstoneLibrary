@@ -5,7 +5,13 @@ html {
 body{ 
 	background-color : #516171;
 }
-
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
 body {
   user-select: none;
 }
@@ -83,15 +89,15 @@ ul li a {
 }
 
 
-/* Apply this to the parent */
+
 .parent-container {
   text-align: center; 
 }
 
-/* Your updated hero-box */
+
 .hero-box {
-  display: inline-block; /* Keeps it tiny */
-  border: 2px solid #516171; /* Small border */
+  display: inline-block; 
+  border: 2px solid #516171; 
   border-radius: 200px;
   padding: 10px 20px;
   color: darkblue;
