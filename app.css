@@ -1,3 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
@@ -5,12 +15,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #0f172a;
-  color: #e5e7eb;
-  line-height: 1.6;
-}
 
 .hero {
   
@@ -35,7 +39,10 @@ body {
   border-radius: 200px;
   padding: 10px 20px;
   color: darkblue;
-  background-color: #B3D1ED;
+  background-color: #00ff9d;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .slogan {
@@ -83,10 +90,6 @@ nav a:hover {
   color: #3b82f6;
 }
 
-HOME {
-  text-align: center;
-  padding: 80px 20px 40px;
-}
 
 .hero-box h1 {
   font-size: 48px;
@@ -100,9 +103,12 @@ HOME {
 }
 
 .intro {
+  display:flex;
   max-width: 700px;
-  margin: 20px auto;
+  text-align:center;
   color: #cbd5e1;
+  font-size:30px;
+   margin: 20px auto;
 }
 
 video {
@@ -126,7 +132,7 @@ video {
 }
 
 
-ABOUT {
+#ABOUT {
   background-color: #111827;
   padding: 60px 20px;
 }
@@ -145,6 +151,7 @@ ABOUT {
 .history p {
   margin-bottom: 15px;
   color: #d1d5db;
+  font-size:22px;
 }
 
 .history blockquote {
@@ -154,13 +161,6 @@ ABOUT {
   color: #93c5fd;
 }
 
-
-CATALOGUE img {
-  width: 100%;
-  max-width: 600px;
-  margin: 10px;
-  border-radius: 10px;
-}
 
 
 table {
@@ -181,11 +181,6 @@ td {
   border: 1px solid #374151;
 }
 
-select {
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-}
 
 .cart h1 {
   text-align: center;
@@ -193,6 +188,30 @@ select {
   font-size: 28px;
   color: #ffffff;
 }
+.cart h2 {
+	text-align:center;
+}
+.choose{
+	text-align:center;
+}
+
+
+section {
+border-bottom: 2px solid #ccc;
+  min-height: 60vh;
+  padding:40px;
+}
+
+.gall h1{
+	
+	text-align:center;
+}
+.gall h2{
+	text-align:center;
+}
+
+
+
 submit {
   display: block;
   width: fit-content;
@@ -201,4 +220,11 @@ submit {
   background-color: #3b82f6;
   color: white;
   border-radius: 5px;
+}
+footer{
+  background-color:  #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
