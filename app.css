@@ -55,7 +55,6 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 80px;
 }
 .login-card {
@@ -63,8 +62,31 @@ html {
   width: 420px;
   padding: 90px;
   border-radius: 8px;
-  text-align: center;
 }
+.new {
+	text-align:center;
+	color:black;
+	}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #2c5364;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background: #1a3a44;
+}
+
+
 nav {
   background-color: #111827;
   padding: 15px 0;
